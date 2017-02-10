@@ -1,0 +1,95 @@
+@font-face { font-family:Engraver; src: url('../fonts/engravrl.ttf'); }
+
+.game-screen{
+  border-top: none;
+  background:url("../images/game-background.png") repeat;
+  width:980px;
+  height: 490px;
+  margin: 0 auto;
+  display: none;
+
+}
+.instruction{
+  float:right;
+  width:32%;
+  margin-top: 50px;
+  font-family:Engraver;
+  font-weight: 900;
+  font-size:16px;
+  line-height: 40px;
+  padding-right: 5px;
+  padding-left: 20px;
+  
+ }   
+.score-wrapper{
+  padding-left: 40px;
+  width: 150px
+
+  height: 300px;
+  display: none;
+  border: 1px solid black;
+ 
+  line-height: 50px;
+  font-size: 16px;
+  background: none;
+  position:absolute;
+  font-family:Engraver;
+  font-weight: 700;
+  left:15%;
+  background: url("../images/coin.png") no-repeat 3% 10%;
+  z-index: 5;
+
+  padding-right: 10px;
+  color: #ffffff;
+}
+.coin-score{
+  position: absolute;
+
+  left: 23%;
+  top:-10%;
+  
+}
+.total-score{
+  margin-top: 20px;
+}
+.start-btn{
+  width: 180px;
+  height: 69px;
+  color: #ffffff;
+  background: url('../images/play.png');
+  position: absolute;
+  top: 300px;
+  left: 320px;
+
+  border: none; 
+}
+.goBack{
+  width: 180px;
+  height: 69px;
+  color: #ffffff;
+  background: url('../images/back.png');
+  position: absolute;
+  top: 500px;
+  left: 252px;
+  border: none;
+  display: none; 
+}
+.start-btn,.goBack:hover{
+  cursor: pointer;
+}
+.start-btn,.goBack:focus{
+  outline: 0;
+}
+.start-screen{
+  width: 980px;
+  height:490px;
+  margin: 0 auto;
+  border: 1px solid black;
+  background: url('../images/background-image.jpg');
+  position: relative;
+}
+.platform{
+  width: 70px;
+  height: 70px;
+  background: url('../images/ground-spritesheet.png') 0 0;
+}
