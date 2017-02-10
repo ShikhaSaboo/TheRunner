@@ -1,10 +1,10 @@
 # TheRunner
 
-Game Controls
-Press Letter M to toggle background music
-Press Up arrow to jump
-Press Down arrow to roll
-Collect coin to increase score
+Game Controls</br>
+Press Letter M to toggle background music</br>
+Press Up arrow to jump</br>
+Press Down arrow to roll</br>
+Collect coin to increase score</br>
 
 
 
